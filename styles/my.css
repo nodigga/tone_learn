@@ -1,0 +1,56 @@
+
+.toggle-play {
+    display: flex;
+    color: blueviolet;
+  }
+
+.my-button {
+    margin: right;
+    color: aquamarine;
+    background-color: blueviolet;
+  }
+  
+  .sequencer {
+    border-radius: 5px;
+    width: fit-content;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: fit-content;
+    margin: auto;
+    color: pink;
+    background-color: blue;
+  }
+
+  .sequencer {
+    border-radius: 5px;
+    width: fit-content;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: fit-content;
+    margin: auto;
+  }
+  
+  .note {
+    border-radius: 5px;
+    height: 4em;
+    width: 4em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: pink;
+    margin: 2px;
+    outline: none;
+  }
+  
+  .sequencer-row {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .note-is-active {
+    background-color: green;
+    border: 1px solid black;
+  }
+  
+  .note-not-active {
+    background-color: rgb(169, 6, 147);
+  }
